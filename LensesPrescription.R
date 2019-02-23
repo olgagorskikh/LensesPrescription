@@ -1,4 +1,4 @@
-#Data source https://archive.ics.uci.edu/ml/datasets/GPS+Trajectories
+#Data source https://archive.ics.uci.edu/ml/datasets/lenses
 data <- read.table("Lenses.txt",header=T,sep="\t")
 
 library(ggplot2)
