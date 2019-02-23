@@ -76,7 +76,6 @@ grid.arrange(plot)
 
 newObject <- matrix(c(1,1,2,2),nrow=1)
 dimnames(newObject) <- list(NULL, c("age","prescription","astigmatic","tear_rate"))
-
 newObject <- data.frame(newObject)
 predict(lda, newdata=newObject)
 
